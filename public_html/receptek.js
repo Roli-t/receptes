@@ -60,7 +60,7 @@ function kattintottEtel(){
         }
           i++;
     }
-    $("aside img").addClass("asideKepFormazas");   
+    $("aside img").addClass("asideKepFormazas");
     
     
     
