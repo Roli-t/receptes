@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+body{
+    background: lightblue;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+main, header, footer, article, div{
+    border:1px solid gray;
+    padding:5px;
+    background: lightyellow;    
+}
+
+
+
+article{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+}
+
+
+
+article{
+    border:2px solid black;  
+    padding:5px;
+    background: lightgrey;      
+
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    background: lightcyan;
+    border-radius: 5px;
+}
+
+footer, header{
+    text-align: center;
+    background: lightskyblue;
+}
+
+
+
+.asideKepFormazas{    
+    width: 50%;
+}
+
+
+
+div img{
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+
+
