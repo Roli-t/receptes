@@ -53,7 +53,7 @@ function kattintottEtel(){
          kovetkezo = true;
          var etelAdatai ="<h3>A kiválasztott étel:</h3><p><b>Étel megnevezése:</b> "+receptekTomb[i].nev+"</p>\n\
                           <p><b>Kategória:</b> "+receptekTomb[i].kategoria+"</p>\n\
-                          <p> <b>Elkészítési ideje:</b>: "+receptekTomb[i].elkeszitesi_ido+"</p>\n\
+                          <p> <b>Elkészítési ideje:</b> "+receptekTomb[i].elkeszitesi_ido+"</p>\n\
                            <img src='" + receptekTomb[i].eleresi_ut + "' alt='" +  receptekTomb[i].eleresi_ut.slice(6, receptekTomb[i].eleresi_ut.length-4) + "' >\n\
                             <p><b>Ára:</b> "+ receptekTomb[i].ar+" Ft</p>";
           $("aside").append("<div id='kivalasztott_kaja'>"+etelAdatai+"</div>");
